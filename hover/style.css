@@ -1,0 +1,30 @@
+.item {
+    height: 200px;
+    width:  200px;
+    margin: 20px;
+    text-align: center;
+    display: inline-block;
+    border: 1px solid green;
+
+    transition: 0.5s;
+}
+
+.hover-background-color:hover {
+    background-color: green;
+}
+
+.hover-width:hover {
+    width: 500px;
+}
+
+.hover-height:hover {
+    height: 500px;
+}
+
+.hover-border-radius:hover {
+    border-radius: 70px;
+}
+
+.hover-pseudo:hover:after {
+    content: "伪元素的内容";
+}
